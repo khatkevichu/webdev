@@ -1,0 +1,464 @@
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*ПЕРВЫЙ БЛОК*/
+
+.your_life {
+	background-image: url(assets/bg-image-wrapper.png);
+	height: 744px;
+}
+
+header {
+	height: 95px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	opacity: 80%;
+	font-size: 14px;
+}
+
+#about {
+	padding-right: 85px;
+	text-decoration: underline;
+	opacity: 100%;
+ }
+
+#project { padding-right: 85px; }
+
+header a:hover {
+	text-decoration: underline;
+	opacity: 100%;
+	transition-duration: 0.3s;
+}
+
+#logo {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h1 {
+	font-size: 64px;
+	color: #fff;
+	font-weight: bold;
+	line-height: normal;
+	text-align: center;
+	margin: 0;
+	padding-top: 135px;
+	letter-spacing: 4.5px;
+}
+
+#print_life {
+	font-size: 18px;
+	color: #fff;
+	line-height: 140%;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	opacity: 90%;
+}
+
+.btn_get_started_1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+#btn {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #00AFDB; 
+	padding: 15px 47px;
+}
+
+#btn:hover {
+	background-color: #009CC2;
+	transition-property: background;
+	transition-duration: 0.5s;
+ 	transition-timing-function: linear
+}
+
+.icons {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	padding-top: 183px;
+}
+
+.icons a {
+	padding-right: 30px;
+}
+
+#last_icon {
+	padding: 0;
+}
+
+.icons a:hover {
+	opacity: 60%;
+	transition-duration: 0.3s;
+}
+
+
+/*ВТОРАЯ ЧАСТЬ*/
+
+.screen2 {
+	display: flex;
+	flex-direction: row;
+	height: 842px;
+	background-color: #fff;
+}
+
+.content_block {
+	width: 407px;
+	padding-top: 295px;
+	padding-left: 269px;
+}
+
+h3 {
+	margin: 0;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#text {
+	font-weight: mixed;
+	color: #4E4E4E;
+	line-height: 140%;
+	font-size: 14px;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.btn_get_started_2 { padding-top: 45px; }
+
+.content_img_1 {
+	padding-top: 120px;
+	padding-left: 248px;
+}
+
+/*ТРЕТЬЯ ЧАСТЬ*/
+
+.screen3 {
+	display: flex;
+	flex-direction: row;
+	height: 504px;
+	background-color: #F5F6F7
+}
+
+.user_card {
+	width: 298px;
+	padding-top: 155px;
+	padding-left: 270px;
+	text-align: center;
+}
+
+h4 {
+	margin: 0;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px;
+	font-weight: medium;
+	letter-spacing: 2.4px;
+	line-height: 20%;
+	padding-top: 20px;
+}
+
+#text2 {
+	color: #4E4E4E;
+	font-size: 14px;
+	line-height: 140%;
+	padding-top: 10px;
+}
+
+/*.second_block {
+	padding-left: 139px;
+}
+
+.slider-items {
+ position: absolute;
+ display: inline-flex;
+}
+
+#img1 { padding-right: 30px; }*/
+.second_block {
+	display: flex;
+	flex-direction: column;
+	padding-left: 139px;
+}
+
+.slider_items {
+
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+
+}
+
+#img1 { padding-right: 30px; }
+
+#crop {
+	float: right;
+	padding-left: 25px;
+}
+
+#one { padding-left: 14px; }
+
+#five { padding-right: 14px; }
+
+#slesh {
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+.slider {
+	padding-top: 82px;
+	padding-left: 542px;
+	padding-bottom: 20px;
+}
+
+.slider a:hover {
+	opacity: 50%;
+	transition-duration: 0.3s;
+}
+
+
+/*ЧЕТВЕРТАЯ ЧАСТЬ*/
+
+
+.screen4 {
+	display: flex;
+	flex-direction: row;
+	height: 842px;
+	background-color: #fff;
+}
+
+.content_img_2 {
+	padding-top: 120px;
+	padding-left: 269px;
+}
+
+.content_block_2 {
+	width: 407px;
+	padding-top: 319px;
+	padding-left: 139px;
+}
+
+.content_block_2 h3 {
+	margin: 0;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.btn_main{ padding-top: 40px; }
+
+/*ПЯТАЯ ЧАСТЬ*/
+
+.screen5 {
+	height: 524px;
+	background-image: url(assets/5.png);
+	background-size: cover;
+
+}
+
+.for {
+	display: flex;
+	flex-direction: column;
+	padding-top: 200px;
+	padding-left: 597px;
+	width: 406px;
+	margin: 0;
+}
+
+input {
+	width: 310px;
+	height: 46px;
+	border: 0;
+	border-radius: 0;
+	font-size: 14px;
+	line-height: 140%;
+	padding-left: 24px;
+}
+
+.f_and_btn {
+	display: inline-flex;
+	flex-direction: row;
+
+}
+
+button {
+	width: 66px;
+	height: 48px;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	background-color: 
+}
+
+button:hover {
+	opacity: 70%
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+/*ШЕСТАЯ ЧАСТЬ*/
+
+.screen6 {
+	height: 464px;
+	background-color: #fff;
+}
+
+#download {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #373737;
+	margin: 0;
+	padding-top: 120px;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#Lorem {
+	color: #4E4E4E;
+	font-size: 14px;
+	line-height: 140%;
+	padding-top: 20px;
+	text-align: center;
+	margin: 0;
+}
+#ap_bt{
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #00AFDB; 
+	padding: 15px 18px;
+}
+   
+#an_bt {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #00AFDB; 
+	padding: 15px 16px;
+}
+
+.apple, .andr {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.apple_andr{
+	display: inline-flex;
+	flex-direction: row;
+	padding-left: 600px;
+	padding-top: 30px;
+
+}
+
+.apple {
+	padding-right: 30px;
+}
+
+#an_bt:hover, #ap_bt:hover {
+	background-color: #009CC2;
+}
+
+#icon1:hover, #icon2:hover {
+	opacity: 70%;
+}
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	height: 185px;
+	background-color: #000;
+}
+
+
+.additional_mnu {
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation {
+	margin: 0;
+	padding-top: 73px;
+	padding-left: 0;
+	padding-left: 160px;
+	
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 140%;
+	padding-right: 15px;
+
+}
+
+.last_logo {
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	padding-left: 382px;
+}
+
+#divider {
+	padding-right: 15px;
+}
+
+#teams {
+	padding: 0;
+}
+
+.copyright {
+	padding-top: 73px;
+	padding-left: 448px;
+	
+
+}
+
+#byTon {
+	color: #818181;
+	margin: 0;
+	line-height: 140%;
+	font-size: 14px;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	opacity: 70%;
+	transition-duration: 0.3s;
+}
